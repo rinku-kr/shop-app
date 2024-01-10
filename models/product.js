@@ -17,6 +17,8 @@ const getProductsFromFile = cb => {
   });
 };
 
+
+
 module.exports = class Product {
   constructor(t) {
     this.title = t;
